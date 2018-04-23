@@ -211,7 +211,7 @@ public class LinkParserTest {
 			debug.append("\nHTML:\n");
 			debug.append(html);
 			debug.append("\n");
-			System.out.println(debug);
+			
 			Assert.assertEquals(debug.toString(), expected, actual);
 		}
 
